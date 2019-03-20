@@ -1,0 +1,1067 @@
+@font-face {
+    font-family: 'Proxima Nova Rg';
+    src: url('../fonts/ProximaNova-Regular.woff2') format('woff2'),
+        url('../fonts/ProximaNova-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Proxima Nova Rg It';
+    src: url('../fonts/ProximaNova-RegularIt.woff2') format('woff2'),
+        url('../fonts/ProximaNova-RegularIt.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Proxima Nova Th';
+    src: url('../fonts/ProximaNovaT-Thin.woff2') format('woff2'),
+        url('../fonts/ProximaNovaT-Thin.woff') format('woff');
+    font-weight: 100;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Proxima Nova Th It';
+    src: url('../fonts/ProximaNova-ThinIt.woff2') format('woff2'),
+        url('../fonts/ProximaNova-ThinIt.woff') format('woff');
+    font-weight: 100;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Proxima Nova Lt';
+    src: url('../fonts/ProximaNova-Light.woff2') format('woff2'),
+        url('../fonts/ProximaNova-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Proxima Nova Lt It';
+    src: url('../fonts/ProximaNova-LightIt.woff2') format('woff2'),
+        url('../fonts/ProximaNova-LightIt.woff') format('woff');
+    font-weight: 300;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Proxima Nova Bl It';
+    src: url('../fonts/ProximaNova-BoldIt.woff2') format('woff2'),
+        url('../fonts/ProximaNova-BoldIt.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Proxima Nova Sm Bl';
+    src: url('../fonts/ProximaNova-Semibold.woff2') format('woff2'),
+        url('../fonts/ProximaNova-Semibold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Proxima Nova Bl';
+    src: url('../fonts/ProximaNova-Bold.woff2') format('woff2'),
+        url('../fonts/ProximaNova-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Proxima Nova Sm Bl It';
+    src: url('../fonts/ProximaNova-SemiboldIt.woff2') format('woff2'),
+        url('../fonts/ProximaNova-SemiboldIt.woff') format('woff');
+    font-weight: 600;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Proxima Nova Blk';
+    src: url('../fonts/ProximaNova-Black.woff2') format('woff2'),
+        url('../fonts/ProximaNova-Black.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Proxima Nova Blk It';
+    src: url('../fonts/ProximaNova-BlackIt.woff2') format('woff2'),
+        url('../fonts/ProximaNova-BlackIt.woff') format('woff');
+    font-weight: 900;
+    font-style: italic;
+}
+
+* {
+    font-family: 'Proxima Nova Rg';
+    padding: 0px;
+    margin: 0px;
+}
+.btn {
+    border-radius: 3px;
+}
+.header-wrapper {
+    position: relative;
+    background: #222222;
+    height: 100vh;
+}
+.find-work-wrapper {
+    background: url(../img/backgrounds/bg_find_works.png) no-repeat center center;
+    background-size: cover;
+    padding: 60px 0px;
+    position: relative;
+    color: #ffffff;
+    min-height: 420px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.find-work-wrapper a.btn.btn-primary {
+    text-transform: uppercase;
+    font-family: 'Proxima Nova Lt';
+    letter-spacing: 3px;
+    font-size: 18px;
+    padding-left: 1.4rem;
+    padding-right: 1.4rem;
+}
+.find-work-wrapper h2 {
+    font-family: 'Proxima Nova Lt';
+    font-size: 38px;
+}
+.find-work-wrapper p {
+    font-family: 'Proxima Nova Lt';
+    font-size: 16px;
+}
+a {
+    transition: background 0.5s ease;
+}
+ul.clients-wrapper {
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    bottom: 35px;
+    left: 0;
+}
+ul.clients-wrapper li {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+ul.clients-wrapper li a {
+    vertical-align: middle;
+}
+ul.clients-wrapper li a {
+    opacity: .6;
+    transition: opacity 0.5s ease;
+}
+ul.clients-wrapper li a:hover,
+ul.clients-wrapper li a:focus {
+    opacity: 1;
+}
+.find-a-job-wrapper {
+    background: url("../img/backgrounds/bg_find_a_job.png") no-repeat center center;
+    background-size: cover;
+    text-align: center;
+    padding: 100px 15px;
+}
+.post-a-job-wrapper {
+    background: url("../img/backgrounds/bg_post_a_job.png") no-repeat center center;
+    background-size: cover;
+    text-align: center;
+    padding: 200px 15px;
+}
+.find-a-job-wrapper,
+.post-a-job-wrapper {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.btn-lg {
+    padding: .6rem 2rem;
+}
+.btn-primary {
+    color: #fff;
+    background-color: #FC6039;
+    border-color: #FC6039;
+}
+.btn-secondary {
+    color: #fff;
+    background-color: #1E2362;
+    border-color: #1E2362;
+}
+a.btn img {
+    margin-top: -3px;
+    margin-left: 5px;
+}
+.find-a-job-wrapper .btn-primary,
+.post-a-job-wrapper .btn-secondary {
+    text-transform: uppercase;
+    font-family: 'Proxima Nova Lt';
+    letter-spacing: 3px;
+    font-size: 20px;
+    margin: 0 auto;
+    top: 50%;
+    bottom: 50%;
+}
+.btn-secondary {
+    text-transform: uppercase;
+    font-family: 'Proxima Nova Lt';
+    letter-spacing: 3px;
+    font-size: 20px;
+    margin: 0 auto;
+    top: 50%;
+    bottom: 50%;
+}
+.btn-primary:hover {
+    color: #fff;
+    background-color: #D14825;
+    border-color: #D14825;
+}
+.btn-primary.focus, .btn-primary:focus {
+    box-shadow: 0 0 0 0.2rem rgba(252,96,57,.5);
+}
+.btn-primary:not(:disabled):not(.disabled).active:focus, .btn-primary:not(:disabled):not(.disabled):active:focus, .show>.btn-primary.dropdown-toggle:focus {
+    box-shadow: 0 0 0 0.2rem rgba(252,96,57,.5);
+}
+.btn-primary:not(:disabled):not(.disabled).active, .btn-primary:not(:disabled):not(.disabled):active, .show>.btn-primary.dropdown-toggle {
+    color: #fff;
+    background-color: #D14825;
+    border-color: #D14825;
+}
+.btn-secondary:hover {
+    color: #fff;
+    background-color: #111544;
+    border-color: #111544;
+}
+.btn-secondary.focus, .btn-secondary:focus {
+    box-shadow: 0 0 0 0.2rem rgba(30,35,98,.5);
+}
+.btn-secondary:not(:disabled):not(.disabled).active:focus, .btn-secondary:not(:disabled):not(.disabled):active:focus, .show>.btn-secondary.dropdown-toggle:focus {
+    box-shadow: 0 0 0 0.2rem rgba(30,35,98,.5);
+}
+.btn-secondary:not(:disabled):not(.disabled).active, .btn-secondary:not(:disabled):not(.disabled):active, .show>.btn-secondary.dropdown-toggle {
+    color: #fff;
+    background-color: #111544;
+    border-color: #111544;
+}
+.bg-dark {
+    background-color: #1E2362 !important;
+    transition: background-color 0.4s ease;
+}
+ul.navbar-nav li a {
+    color: #ffffff;
+    font-family: 'Proxima Nova Lt';
+}
+ul.navbar-nav li a:hover,
+ul.navbar-nav li a:focus {
+    color: #FC6039;
+}
+ul.navbar-nav li a.sign-up-link {
+    font-family: 'Proxima Nova Sm Bl';
+}
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: 1rem;
+    padding-left: 1rem;
+}
+.meet-the-employee-wrapper {
+    padding: 60px 0px 0px 0px;
+    position: relative;
+}
+.meet-the-employee-wrapper h2 {
+    font-family: 'Proxima Nova Lt';
+    font-size: 32px;
+    display: block;
+    text-align: center;
+    padding-bottom: 45px;
+    margin: 0px;
+}
+.meet-the-employee-wrapper h2 strong {
+    color: #F36646;
+}
+.meet-the-employee-wrapper .col-xl-2 {
+    position: relative;
+    background-color: #000000;
+    padding: 0px;
+}
+.meet-the-employee-wrapper .employee-details-wrapper {
+    position: absolute;
+    bottom: 0;
+    color: #ffffff;
+    padding: 10px 5px 15px 5px;
+    width: 100%;
+    text-align: center;
+}
+.meet-the-employee-wrapper .employee-details-wrapper h4 {
+    margin: 0px;
+    font-size: 18px;
+    font-family: 'Proxima Nova Rg';
+    line-height: 14px;
+    z-index: 1010;
+    position: relative;
+}
+.meet-the-employee-wrapper .employee-details-wrapper small {
+    font-family: 'Proxima Nova Lt';
+    font-size: 13px;
+    opacity: .8;
+    z-index: 1010;
+    position: relative;
+}
+.meet-the-employee-wrapper a span {
+    position: absolute;
+    z-index: 1000;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    margin-right: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(241,93,59, .0);
+    transition: background-color 0.3s ease;
+}
+.meet-the-employee-wrapper a:hover span {
+    background-color: rgba(241,93,59, .8);
+}
+strong {
+    font-family: 'Proxima Nova Bl';
+}
+.orange-text {
+    color: #FC6039 !important;
+}
+.jobs-wrapper {
+    background: url("../img/backgrounds/bg_jobs.png") no-repeat 0 0;
+    padding: 80px 0px;
+    color: #ffffff;
+    background-size: cover;
+}
+.jobs-wrapper h2 {
+    font-family: 'Proxima Nova Lt';
+    font-size: 32px;
+    display: block;
+    text-align: center;
+    padding-bottom: 45px;
+    margin: 0px;
+}
+.jobs-wrapper a.job-tag {
+    background: rgba(255,255,255,.8);
+    padding: 35px 25px;
+    display: block;
+    position: relative;
+    text-align: center;
+    border-radius: 3px;
+    transition: background-color 0.4s ease;
+    min-height: 225px;
+    margin: 10px 0px;
+}
+.jobs-wrapper a.job-tag img {
+    margin-bottom: 25px;
+}
+.jobs-wrapper a.job-tag h4 {
+    font-size: 24px;
+    margin: 0px;
+    font-family: 'Proxima Nova Lt';
+    color: #000000;
+}
+.jobs-wrapper a.job-tag:hover,
+.jobs-wrapper a.job-tag:focus {
+    text-decoration: none;
+    background: rgba(255,255,255,1);
+}
+.jobs-wrapper a.job-tag:hover h4,
+.jobs-wrapper a.job-tag:focus h4 {
+    color: #FC6039;
+    transition: color 0.4s ease;
+}
+.benefits-wrapper,
+.benefits-2-wrapper {
+    display: block;
+    position: relative;
+    padding: 75px 0px;
+    background-color: #F9F9F9;
+    text-align: center;
+}
+.steps-wrapper {
+    display: block;
+    position: relative;
+    padding: 75px 0px;
+    background-color: #ffffff;
+    text-align: center;
+}
+.steps-wrapper img {
+    margin-bottom: 30px;
+}
+.benefits-2-wrapper h2 {  
+    font-family: 'Proxima Nova Lt';
+    font-size: 40px;
+    display: block;
+    text-align: center;
+    padding-bottom: 20px;
+    margin: 0px;
+}
+.steps-wrapper h2 {  
+    font-family: 'Proxima Nova Lt';
+    font-size: 40px;
+    display: block;
+    text-align: center;
+    padding-bottom: 35px;
+    margin: 0px;
+}
+.benefits-2-wrapper p.subtitle {
+    margin: 0 auto 30px auto!important;
+}
+.benefits-wrapper h2 {  
+    font-family: 'Proxima Nova Lt';
+    font-size: 32px;
+    display: block;
+    text-align: center;
+    padding-bottom: 60px;
+    margin: 0px;
+}
+.benefits-wrapper h3,
+.benefits-2-wrapper h3,
+.steps-wrapper h3 {
+    font-family: 'Proxima Nova Sm Bl';
+    font-size: 20px;
+}
+.benefits-wrapper p,
+.benefits-2-wrapper p,
+.steps-wrapper p {
+    color: #666666;
+    margin: 0px;
+    font-family: 'Proxima Nova Lt';
+}
+.benefits-wrapper .col-xl-4,
+.benefits-2-wrapper .col-xl-4,
+.steps-wrapper .col-xl-4 {
+    min-height: 260px;
+    padding: 15px 35px;
+}
+.featured-wrapper {
+    background: #262D87 url("../img/backgrounds/bg_benefits.png") no-repeat 0 0;
+    padding: 60px 0px;
+    color: #ffffff;
+    background-size: cover;
+}
+.featured-wrapper h2 {
+    font-family: 'Proxima Nova Lt';
+    font-size: 32px;
+    display: block;
+    text-align: center;
+    padding-bottom: 40px;
+    margin: 0px;
+}
+.featured-wrapper ul {
+    margin: 0px;
+}
+.testimonial-wrapper {
+    background: #F9F9F9;
+    padding: 70px 0px 100px 0px;
+    color: #ffffff;
+}
+.testimonial-wrapper h2 {
+    font-family: 'Proxima Nova Lt';
+    font-size: 34px;
+    display: block;
+    text-align: center;
+    padding-bottom: 50px;
+    margin: 0px;
+    color: #000000;
+}
+.carousel-cell {
+    background: #ffffff;
+    border-radius: 4px;
+    text-align: center;
+    opacity: .7;
+    position: relative;
+    overflow: visible;
+}
+.carousel-cell.is-selected {
+    opacity: 1;
+}
+.carousel-cell:before {
+    display: block;
+    text-align: center;
+    line-height: 200px;
+    color: #000000;
+}
+.carousel-cell h3 {
+    color: #aaaaaa;
+    font-family: 'Noto Serif', serif;
+    font-weight: 400;
+    font-style: italic;
+    margin-bottom: 30px;
+}
+.carousel-cell.is-selected h3 {
+    color: #000000 !important;
+}
+.carousel-cell p {
+    color: #F36646;
+    font-family: 'Proxima Nova Sm Bl';
+}
+.carousel-cell img {
+    margin-bottom: 25px;
+}
+.flickity-page-dots {
+    bottom: -40px !Important;
+}
+.flickity-page-dots .dot {
+    margin: 0 4px !Important;
+    background: #aaaaaa !important;
+}
+.flickity-page-dots .dot.is-selected {
+    margin: 0 4px !Important;
+    background: #F36646 !important;
+}
+.form-wrapper {
+    background: #ffffff;
+    padding: 70px 0px;
+    color: #ffffff;
+}
+.form-wrapper h2 {
+    font-family: 'Proxima Nova Lt';
+    font-size: 34px;
+    display: block;
+    text-align: center;
+    padding-bottom: 50px;
+    margin: 0px;
+    color: #000000;
+}
+.form-wrapper h2 strong {
+    color: #F36646;
+}
+.form-wrapper input.form-control {
+    height: 50px;
+    border: 2px solid #E2E2E2;
+    color: #000000;
+    font-family: 'Proxima Nova Lt';
+}
+.form-wrapper textarea.form-control {
+    border: 2px solid #E2E2E2;
+    color: #000000;
+    font-family: 'Proxima Nova Lt';
+}
+.form-wrapper input.form-control:focus, 
+.form-wrapper textarea.form-control:focus {
+    border-color: #F36646;
+    box-shadow: none;
+    outline: none;
+}
+.form-wrapper .col-xl-4, 
+.form-wrapper .col-xl-8 {
+    margin-bottom: 10px;
+}
+.call-to-action-wrapper {
+    background: #f9f9f9;
+    padding: 70px 0px;
+    color: #000000;
+}
+.call-to-action-wrapper .col-xl-6 {
+    position: relative;
+    overflow: hidden;
+    text-align: left;
+}
+.call-to-action-wrapper h1 {
+    font-size: 45px;
+    font-family: 'Proxima Nova Lt';
+    margin-bottom: 20px;
+}
+.call-to-action-wrapper p {
+    font-size: 17px;
+    font-family: 'Proxima Nova Lt';
+    color: #333333;
+}
+.cta-buttons-wrapper {
+    margin-top: 35px;
+}
+.cta-buttons-wrapper a {
+    margin-right: 8px;
+}
+.video-wrapper {
+    background: #1F2462 url("../img/backgrounds/bg_video.png") no-repeat center center;
+    color: #ffffff;
+    text-align: center;
+}
+.video-wrapper h2 {
+    font-family: 'Proxima Nova Lt';
+    font-size: 34px;
+    display: block;
+    text-align: center;
+    padding-bottom: 25px;
+    margin: 0px;
+    color: #ffffff;
+}
+.video-wrapper p {
+    margin: 0 auto 30px auto!important;
+    font-size: 16px;
+    color: #ffffff;
+    opacity: .7;
+    font-family: 'Proxima Nova Lt';
+}
+footer {
+    background-color: #1E2362;
+    padding: 70px 0px 25px 0px;
+    color: #ffffff;
+}
+footer h4 {
+    color: #F36646;
+    margin-bottom: 20px;
+}
+footer ul li a {
+    color: #ffffff;
+    font-family: 'Proxima Nova Th';
+    line-height: 32px;
+}
+footer ul li a:hover,
+footer ul li a:focus,
+footer ul li a:active,
+footer ul li a.active {
+    color: #F15D3B;
+}
+footer ul.media-social-links li a {
+    transition: opacity 0.3s ease;
+}
+footer ul.media-social-links li a:hover, 
+footer ul.media-social-links li a:focus {
+    opacity: .4;
+}
+footer p {
+    font-size: 13px;
+    color: #7478A5;
+}
+footer p a {
+    color: #7478A5;
+}
+footer p a:hover,
+footer p a:focus {
+    color: #7478A5;
+}
+.buttons-on-mobile a.btn {
+    display: block;
+    width: 100%;
+    margin-bottom: 15px;
+}
+.navbar-toggler {
+    padding: 0px;
+}
+button.navbar-toggler:hover,
+button.navbar-toggler:focus,
+button.navbar-toggler:active,
+button.navbar-toggler.active {
+    box-shadow: none;
+    outline: none;
+    opacity: .5;
+}
+a.video-button {
+    transition: opacity 0.3s ease;
+}
+a.video-button:hover, 
+a.video-button:focus {
+    opacity: .6;
+}
+.testimonial-box {
+    background-color: #F15D3B;
+    color: #ffffff;
+    z-index: 1000;
+}
+.testimonial-box h3 {
+    font-family: 'Noto Serif', serif;
+    font-style: italic;
+    font-size: 26px;
+    font-weight: 400;
+    line-height: 38px;
+    margin-bottom: 25px;
+}
+.testimonial-box p {
+    margin: 0px;
+    font-family: 'Proxima Nova Lt';
+}
+
+/* RESPONSIVE VIEWS */
+
+@media (min-width: 320px) {
+    ul.clients-wrapper li:nth-child(n+4) {
+        display: none;
+    }
+    .meet-the-employee-wrapper .row .col-xl-2:nth-child(-n+2) {
+        display: none;
+    }
+    .featured-wrapper ul li {
+        margin: 15px 15px;
+    }
+    .carousel-cell h3 {
+        font-size: 16px;
+        line-height: 26px;
+    }
+    .carousel-cell {
+        padding: 35px 20px 35px 20px;
+        margin-right: 15px;
+        height: 320px;
+    }
+    .call-to-action-wrapper .col-xl-6, 
+    .call-to-action-wrapper .col-xl-5 {
+        text-align: center;
+    }
+    .call-to-action-wrapper .col-xl-6 img.preview-image {
+        margin-left: 0px;
+        width: 320px;
+    }
+    .call-to-action-wrapper h1 {
+        margin-top: 25px;
+    }
+    footer .col-xl-3 {
+        margin-bottom: 15px;
+    }
+    .carousel-cell {
+        width: 80%;
+    }
+    #post-a-job-bg {
+        display: none;
+    }
+    .buttons-on-mobile {
+        display: block;
+    }
+    #find-a-job-on-mobile {
+        display: none;
+    }
+    .navbar-expand-lg .navbar-nav .nav-link {
+        padding-left: 0rem;
+        padding-right: 0rem;
+    }
+    .navbar-nav {
+        margin-top: 5px;
+        padding-top: 10px;
+    }
+    .video-wrapper p {
+        width: auto;
+    }
+    .testimonial-box {
+        padding: 25px 15px;
+        position: relative;
+        top: 0;
+        left: 0px;
+        text-align: center;
+    }
+    .testimonial-2-wrapper {
+        padding: 15px 15px 15px 15px;
+    }
+    .video-wrapper {
+        padding: 40px 0px;
+    }
+    .benefits-2-wrapper p.subtitle {
+        width: auto;
+    }
+    .find-work-wrapper .col-xl-6 {
+        text-align: center;
+    }
+}
+@media (min-width: 480px) {
+    ul.clients-wrapper li:nth-child(n+4) {
+        display: none;
+    }
+    .meet-the-employee-wrapper .row .col-xl-2:nth-child(-n+2) {
+        display: none;
+    }
+    .featured-wrapper ul li {
+        margin: 15px 15px;
+    }
+    .carousel-cell h3 {
+        font-size: 18px;
+        line-height: 26px;
+    }
+    .carousel-cell {
+        padding: 35px 20px 35px 20px;
+        margin-right: 15px;
+        height: 320px;
+    }
+    .call-to-action-wrapper .col-xl-6, 
+    .call-to-action-wrapper .col-xl-5 {
+        text-align: center;
+    }
+    .call-to-action-wrapper .col-xl-6 img.preview-image {
+        margin-left: 0px;
+        width: 350px;
+    }
+    .call-to-action-wrapper h1 {
+        margin-top: 35px;
+    }
+    footer .col-xl-3 {
+        margin-bottom: 15px;
+    }
+    .carousel-cell {
+        width: 80%;
+    }
+    #post-a-job-bg {
+        display: none;
+    }
+    .buttons-on-mobile {
+        display: block;
+    }
+    #find-a-job-on-mobile {
+        display: none;
+    }
+    .navbar-expand-lg .navbar-nav .nav-link {
+        padding-left: 0rem;
+        padding-right: 0rem;
+    }
+    .navbar-nav {
+        margin-top: 5px;
+        padding-top: 10px;
+    }
+    .video-wrapper p {
+        width: auto;
+    }
+    .testimonial-box {
+        padding: 35px;
+        position: relative;
+        top: 0;
+        left: 0px;
+        text-align: center;
+    }
+    .testimonial-2-wrapper {
+        padding: 45px 0px 25px 0px;
+    }
+    .video-wrapper {
+        padding: 50px 0px;
+    }
+    .benefits-2-wrapper p.subtitle {
+        width: auto;
+    }
+    .find-work-wrapper .col-xl-6 {
+        text-align: center;
+    }
+}
+@media (min-width: 768px) {
+    ul.clients-wrapper li:nth-child(n+4) {
+        display: block;
+    }
+    .meet-the-employee-wrapper .row .col-xl-2:nth-child(-n+2) {
+        display: none;
+    }
+    .featured-wrapper ul li {
+        margin: 0px 0px;
+    }
+    .carousel-cell h3 {
+        font-size: 20px;
+        line-height: 30px;
+    }
+    .carousel-cell {
+        padding: 35px 35px 35px 35px;
+        margin-right: 30px;
+        height: 300px;
+    }
+    .call-to-action-wrapper .col-xl-6, 
+    .call-to-action-wrapper .col-xl-5 {
+        text-align: left;
+    }
+    .call-to-action-wrapper .col-xl-6 img.preview-image {
+        margin-left: -280px;
+        width: 750px;
+    }
+    .call-to-action-wrapper h1 {
+        margin-top: 55px;
+    }
+    footer .col-xl-3 {
+        margin-bottom: 0px;
+    }
+    .carousel-cell {
+        width: 60%;
+    }
+    #post-a-job-bg {
+        display: flex;
+    }
+    .buttons-on-mobile {
+        display: none;
+    }
+    #find-a-job-on-mobile {
+        display: block;
+    }
+    .navbar-expand-lg .navbar-nav .nav-link {
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+    .navbar-nav {
+        margin-top: 0px;
+        padding-top: 0px;
+    }
+    .video-wrapper p {
+        width: 60%;
+    }
+    .testimonial-box {
+        padding: 35px;
+        position: absolute;
+        top: 30%;
+        left: -100px;
+        text-align: center;
+    }
+    .testimonial-2-wrapper {
+        padding: 65px 0px 25px 0px;
+    }
+    .video-wrapper {
+        padding: 70px 0px;
+    }
+    .benefits-2-wrapper p.subtitle {
+        width: 50%;
+    }
+    .find-work-wrapper .col-xl-6 {
+        text-align: left;
+    }
+}
+@media (min-width: 992px) {
+    ul.clients-wrapper li:nth-child(n+4) {
+        display: block;
+    }
+    .meet-the-employee-wrapper .row .col-xl-2:nth-child(-n+2) {
+        display: block;
+    }
+    .featured-wrapper ul li {
+        margin: 0px 0px;
+    }
+    .carousel-cell h3 {
+        font-size: 24px;
+        line-height: 34px;
+    }
+    .carousel-cell {
+        padding: 35px 45px 35px 45px;
+        margin-right: 30px;
+        height: 310px;
+    }
+    .call-to-action-wrapper .col-xl-6, 
+    .call-to-action-wrapper .col-xl-5 {
+        text-align: left;
+    }
+    .call-to-action-wrapper .col-xl-6 img.preview-image {
+        margin-left: -180px;
+        width: 750px;
+    }
+    .call-to-action-wrapper h1 {
+        margin-top: 55px;
+    }
+    footer .col-xl-3 {
+        margin-bottom: 0px;
+    }
+    .carousel-cell {
+        width: 60%;
+    }
+    #post-a-job-bg {
+        display: flex;
+    }
+    .buttons-on-mobile {
+        display: none;
+    }
+    #find-a-job-on-mobile {
+        display: block;
+    }
+    .navbar-expand-lg .navbar-nav .nav-link {
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+    .navbar-nav {
+        margin-top: 0px;
+        padding-top: 0px;
+    }
+    .video-wrapper p {
+        width: 70%;
+    }
+    .testimonial-box {
+        padding: 50px;
+        position: absolute;
+        top: 14%;
+        left: -100px;
+        text-align: left;
+    }
+    .testimonial-2-wrapper {
+        padding: 65px 0px 25px 0px;
+    }
+    .video-wrapper {
+        padding: 70px 0px;
+    }
+    .benefits-2-wrapper p.subtitle {
+        width: 60%;
+    }
+    .find-work-wrapper .col-xl-6 {
+        text-align: left;
+    }
+}
+@media (min-width: 1200px) {
+    ul.clients-wrapper li:nth-child(n+4) {
+        display: block;
+    }
+    .meet-the-employee-wrapper .row .col-xl-2:nth-child(-n+2) {
+        display: block;
+    }
+    .featured-wrapper ul li {
+        margin: 0px 0px;
+    }
+    .carousel-cell h3 {
+        font-size: 24px;
+        line-height: 34px;
+    }
+    .carousel-cell {
+        padding: 35px 45px 35px 45px;
+        margin-right: 30px;
+        height: 310px;
+    }
+    .call-to-action-wrapper .col-xl-6, 
+    .call-to-action-wrapper .col-xl-5 {
+        text-align: left;
+    }
+    .call-to-action-wrapper .col-xl-6 img.preview-image {
+        margin-left: -180px;
+        width: 750px;
+    }
+    .call-to-action-wrapper h1 {
+        margin-top: 55px;
+    }
+    footer .col-xl-3 {
+        margin-bottom: 0px;
+    }
+    .carousel-cell {
+        width: 60%;
+    }
+    #post-a-job-bg {
+        display: flex;
+    }
+    .buttons-on-mobile {
+        display: none;
+    }
+    #find-a-job-on-mobile {
+        display: block;
+    }
+    .navbar-expand-lg .navbar-nav .nav-link {
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+    .navbar-nav {
+        margin-top: 0px;
+        padding-top: 0px;
+    }
+    .video-wrapper p {
+        width: 70%;
+    }
+    .testimonial-box {
+        padding: 50px;
+        position: absolute;
+        top: 20%;
+        left: -100px;
+        text-align: left;
+    }
+    .testimonial-2-wrapper {
+        padding: 65px 0px 25px 0px;
+    }
+    .video-wrapper {
+        padding: 70px 0px;
+    }
+    .benefits-2-wrapper p.subtitle {
+        width: 60%;
+    }
+    .find-work-wrapper .col-xl-6 {
+        text-align: left;
+    }
+}
+
+/* RESPONSIVE VIEWS */
+
+
+

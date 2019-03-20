@@ -1,0 +1,456 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <link rel="stylesheet" type="text/css" href="assets/css/styles.css">
+        <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+        <link href="https://fonts.googleapis.com/css?family=Noto+Serif:400,400i,700,700i" rel="stylesheet">
+
+        <title>70MillionJobs</title>
+    </head>
+    <body>
+        
+        <nav id="top-menus" class="navbar navbar-expand-lg fixed-top">
+            <div class="container">
+                <a class="navbar-brand" href="#"><img src="assets/img/logo.png" alt="logo" width="120"/></a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample07" aria-controls="navbarsExample07" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon">
+                        <img src="assets/img/icons/burger-menu.svg" alt="menu on mobile" width=""/>
+                    </span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarsExample07">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#">Login</a>
+                        </li>
+                        <li class="nav-item">
+                            <a id="signup-highlighted" class="nav-link sign-up-link" href="#">Sign Up For Free</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        
+        <div class="header-wrapper container-fluid">
+            <div class="row">
+                <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12 find-a-job-wrapper">
+                    <a id="find-a-job-on-mobile" href="#" class="btn btn-lg btn-primary">
+                        Find a Job <img src="assets/img/icons/arrow_next.svg" alt="icon next" width=""/>
+                    </a>
+                    <div class="buttons-on-mobile">
+                        <a href="#" class="btn btn-lg btn-primary">
+                            Find a Job <img src="assets/img/icons/arrow_next.svg" alt="icon next" width=""/>
+                        </a>
+                        <a href="#" id="button-post-a-job-on-mobile" class="btn btn-lg btn-secondary">
+                            Post a Job <img src="assets/img/icons/arrow_next.svg" alt="icon next" width=""/>
+                        </a>
+                    </div>
+                </div>
+                <div id="post-a-job-bg" class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12 post-a-job-wrapper">
+                    <a href="#" class="btn btn-lg btn-secondary">
+                        Post a Job <img src="assets/img/icons/arrow_next.svg" alt="icon next" width=""/>
+                    </a>
+                </div>
+            </div>
+            <div class="container position-relative">
+                <ul class="clients-wrapper nav nav-fill">
+                    <li class="nav-item">
+                        <a href="#">
+                            <img src="assets/img/logos/clients/lg_disney.png" alt="logo clients" width="90"/>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#">
+                            <img src="assets/img/logos/clients/lg_pizzahut.png" alt="logo clients" width="50"/>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#">
+                            <img src="assets/img/logos/clients/lg_p&g.png" alt="logo clients" width="50"/>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#">
+                            <img src="assets/img/logos/clients/lg_paypal.png" alt="logo clients" width="90"/>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#">
+                            <img src="assets/img/logos/clients/lg_dove.png" alt="logo clients" width="60"/>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#">
+                            <img src="assets/img/logos/clients/lg_suzuki.png" alt="logo clients" width="80"/>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        
+        <div class="meet-the-employee-wrapper container-fluid">
+            <div class="container">
+                <h2>Meet Our <strong>100,000+</strong> Employees</h2>
+            </div>
+            <div class="row no-gutters">
+                <div class="col-xl-2 col-lg-2 col-md-3 col-sm-6 col-6">
+                    <a href="#">
+                        <span></span>
+                        <img src="assets/img/placeholders/img_employee.png" alt="employee photo" width="100%"/>
+                        <div class="employee-details-wrapper">
+                            <h4>John Smith</h4>
+                            <small>New York, NY</small>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-xl-2 col-lg-2 col-md-3 col-sm-6 col-6">
+                    <a href="#">
+                        <span></span>
+                        <img src="assets/img/placeholders/img_employee_02.png" alt="employee photo" width="100%"/>
+                        <div class="employee-details-wrapper">
+                            <h4>Erica Baldwin</h4>
+                            <small>Sacramento, CA</small>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-xl-2 col-lg-2 col-md-3 col-sm-6 col-6">
+                    <a href="#">
+                        <span></span>
+                        <img src="assets/img/placeholders/img_employee_03.png" alt="employee photo" width="100%"/>
+                        <div class="employee-details-wrapper">
+                            <h4>Jonas Blake</h4>
+                            <small>San Diego, CA</small>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-xl-2 col-lg-2 col-md-3 col-sm-6 col-6">
+                    <a href="#">
+                        <span></span>
+                        <img src="assets/img/placeholders/img_employee_04.png" alt="employee photo" width="100%"/>
+                        <div class="employee-details-wrapper">
+                            <h4>Jessica T.</h4>
+                            <small>New York, NY</small>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-xl-2 col-lg-2 col-md-3 col-sm-6 col-6">
+                    <a href="#">
+                        <span></span>
+                        <img src="assets/img/placeholders/img_employee_05.png" alt="employee photo" width="100%"/>
+                        <div class="employee-details-wrapper">
+                            <h4>Andrew P.</h4>
+                            <small>San Diego, CA</small>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-xl-2 col-lg-2 col-md-3 col-sm-6 col-6">
+                    <a href="#">
+                        <span></span>
+                        <img src="assets/img/placeholders/img_employee_06.png" alt="employee photo" width="100%"/>
+                        <div class="employee-details-wrapper">
+                            <h4>Jenny Tan</h4>
+                            <small>Sacramento, CA</small>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+        
+        <div class="jobs-wrapper container-fluid">
+            <div class="container">
+                <h2>Find Workers In Minutes. <strong>No Upfront Costs</strong>.</h2>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-3 col-lg-3 col-md-4 col-sm-6 col-12">
+                        <a href="#" class="job-tag">
+                            <img src="assets/img/icons/jobs/ic_warehouse_operations.svg" alt="icon job" width=""/>
+                            <h4>Warhouse <strong>Operations</strong></h4>
+                        </a>
+                    </div>
+                    <div class="col-xl-3 col-lg-3 col-md-4 col-sm-6 col-12">
+                        <a href="#" class="job-tag">
+                            <img src="assets/img/icons/jobs/ic_general_labor.svg" alt="icon job" width=""/>
+                            <h4>General <br/> <strong>Labor</strong></h4>
+                        </a>
+                    </div>
+                    <div class="col-xl-3 col-lg-3 col-md-4 col-sm-6 col-12">
+                        <a href="#" class="job-tag">
+                            <img src="assets/img/icons/jobs/ic_delivery_drivers.svg" alt="icon job" width=""/>
+                            <h4>Delivery <br/> <strong>Drivers</strong></h4>
+                        </a>
+                    </div>
+                    <div class="col-xl-3 col-lg-3 col-md-4 col-sm-6 col-12">
+                        <a href="#" class="job-tag">
+                            <img src="assets/img/icons/jobs/ic_food_production.svg" alt="icon job" width=""/>
+                            <h4>Food <br/> <strong>Production</strong></h4>
+                        </a>
+                    </div>
+                    <div class="col-xl-3 col-lg-3 col-md-4 col-sm-6 col-12">
+                        <a href="#" class="job-tag">
+                            <img src="assets/img/icons/jobs/ic_event_staffing.svg" alt="icon job" width=""/>
+                            <h4>Event <br/> <strong>Staffing</strong></h4>
+                        </a>
+                    </div>
+                    <div class="col-xl-3 col-lg-3 col-md-4 col-sm-6 col-12">
+                        <a href="#" class="job-tag">
+                            <img src="assets/img/icons/jobs/ic_wahing_&_cleaning.svg" alt="icon job" width=""/>
+                            <h4>Washing & <br/> <strong>Cleaning</strong></h4>
+                        </a>
+                    </div>
+                    <div class="col-xl-3 col-lg-3 col-md-4 col-sm-6 col-12">
+                        <a href="#" class="job-tag">
+                            <img src="assets/img/icons/jobs/ic_administrative.svg" alt="icon job" width=""/>
+                            <h4>Administrative</h4>
+                        </a>
+                    </div>
+                    <div class="col-xl-3 col-lg-3 col-md-4 col-sm-6 col-12">
+                        <a href="#" class="job-tag">
+                            <img src="assets/img/icons/jobs/ic_merchandising.svg" alt="icon job" width=""/>
+                            <h4>Merchandising</h4>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="benefits-wrapper">
+            <div class="container">
+                <h2>Trust <strong>70MillionJobs’s</strong> On-Demand Staffing Platform</h2>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-4 col-lg-4 col-md-4 col-sm-6 col-12">
+                        <img src="assets/img/icons/benefits/ic_01.svg" alt="icon benefit" width=""/>
+                        <h3>No Upfront Costs</h3>
+                        <p>Only pay when a job is successfully completed.</p>
+                    </div>
+                    <div class="col-xl-4 col-lg-4 col-md-4 col-sm-6 col-12">
+                        <img src="assets/img/icons/benefits/ic_02.svg" alt="icon benefit" width=""/>
+                        <h3>Find Help in Minutes</h3>
+                        <p>Time to fill often averages 4 minutes vs. days or weeks for many temp/contract staffing companies.</p>
+                    </div>
+                    <div class="col-xl-4 col-lg-4 col-md-4 col-sm-6 col-12">
+                        <img src="assets/img/icons/benefits/ic_03.svg" alt="icon benefit" width=""/>
+                        <h3>Your CFO Will Thank You</h3>
+                        <p>On-demand staffing can cost 40% less than the cost of traditional temp staffing solutions.</p>
+                    </div>
+                    <div class="col-xl-4 col-lg-4 col-md-4 col-sm-6 col-12">
+                        <img src="assets/img/icons/benefits/ic_04.svg" alt="icon benefit" width=""/>
+                        <h3>Built for Business</h3>
+                        <p>HR and legal compliance built-in.</p>
+                    </div>
+                    <div class="col-xl-4 col-lg-4 col-md-4 col-sm-6 col-12">
+                        <img src="assets/img/icons/benefits/ic_05.svg" alt="icon benefit" width=""/>
+                        <h3>There When You Need Us</h3>
+                        <p>Average fill rate is often over 90% vs. 34% for many temp/contract staffing companies.</p>
+                    </div>
+                    <div class="col-xl-4 col-lg-4 col-md-4 col-sm-6 col-12">
+                        <img src="assets/img/icons/benefits/ic_06.svg" alt="icon benefit" width=""/>
+                        <h3>Save Time</h3>
+                        <p>Post a job in seconds on our on-demand staffing platform.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="featured-wrapper">
+            <div class="container">
+                <h2>As featured in</h2>
+                <ul class="featured-logos nav nav-fill">
+                    <li class="nav-item">
+                        <img src="assets/img/logos/featured_logos/lg_01.png" alt="logo clients" width="110"/>
+                    </li>
+                    <li class="nav-item">
+                        <img src="assets/img/logos/featured_logos/lg_02.png" alt="logo clients" width="100"/>
+                    </li>
+                    <li class="nav-item">
+                        <img src="assets/img/logos/featured_logos/lg_03.png" alt="logo clients" width="130"/>
+                    </li>
+                    <li class="nav-item">
+                        <img src="assets/img/logos/featured_logos/lg_04.png" alt="logo clients" width="110"/>
+                    </li>
+                    <li class="nav-item">
+                        <img src="assets/img/logos/featured_logos/lg_05.png" alt="logo clients" width="40"/>
+                    </li>
+                    <li class="nav-item">
+                        <img src="assets/img/logos/featured_logos/lg_06.png" alt="logo clients" width="100"/>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        
+        <div class="testimonial-wrapper">
+            <h2>What Customers Say About Us</h2>
+            <div class="main-carousel" data-flickity='{ "freeScroll": true, "wrapAround": true }'>
+                <div class="carousel-cell">
+                    <img src="assets/img/icons/testimonial.svg" alt="image testimonial" width=""/>
+                    <h3>
+                        “Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a gallery.”
+                    </h3>
+                    <p>Reilly B | Soma Streat Food Park</p>
+                </div>
+                <div class="carousel-cell">
+                    <img src="assets/img/icons/testimonial.svg" alt="image testimonial" width=""/>
+                    <h3>
+                        “Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a gallery.”
+                    </h3>
+                    <p>Reilly B | Soma Streat Food Park</p>
+                </div>
+                <div class="carousel-cell">
+                    <img src="assets/img/icons/testimonial.svg" alt="image testimonial" width=""/>
+                    <h3>
+                        “Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a gallery.”
+                    </h3>
+                    <p>Reilly B | Soma Streat Food Park</p>
+                </div>
+                <div class="carousel-cell">
+                    <img src="assets/img/icons/testimonial.svg" alt="image testimonial" width=""/>
+                    <h3>
+                        “Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a gallery.”
+                    </h3>
+                    <p>Reilly B | Soma Streat Food Park</p>
+                </div>
+            </div>
+        </div>
+        
+        <div class="form-wrapper">
+            <h2>Need Staff <strong>ASAP</strong>?</h2>
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12">
+                        <input type="text" class="form-control" placeholder="First name">
+                    </div>
+                    <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12">
+                        <input type="text" class="form-control" placeholder="Last name">
+                    </div>
+                </div>
+                <div class="row justify-content-center">
+                    <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12">
+                        <input type="text" class="form-control" placeholder="Your work email address">
+                    </div>
+                    <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12">
+                        <input type="text" class="form-control" placeholder="Your phone">
+                    </div>
+                </div>
+                <div class="row justify-content-center">
+                    <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12">
+                        <input type="text" class="form-control" placeholder="Company">
+                    </div>
+                    <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12">
+                        <input type="text" class="form-control" placeholder="Zip code you need staff in">
+                    </div>
+                </div>
+                <div class="row justify-content-center">
+                    <div class="col-xl-8 col-lg-8 col-md-12 col-sm-12 col-12">
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="4" placeholder="Message here..."></textarea>
+                    </div>
+                </div>
+                <div class="row justify-content-center mt-2">
+                    <div class="col-xl-8 col-lg-8 col-md-12 col-sm-12 col-12">
+                        <a href="#" class="btn btn-primary btn-lg btn-block">Send message</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="call-to-action-wrapper">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12">
+                        <img class="preview-image" src="assets/img/placeholders/image_preview.svg" alt="image preview" width=""/>
+                    </div>
+                    <div class="col-xl-5 col-lg-5 col-md-6 col-sm-12 col-12">
+                        <h1>Work now. Get paid. Live life on your terms.</h1>
+                        <p class="mb-4">
+                            <strong>70millionjobs</strong> connects you with immediate hourly or daily jobs from the biggest and best brands, allowing you to work where you want, when you want, for whomever you want.
+                        </p>
+                        <div class="cta-buttons-wrapper d-block">
+                            <a href="#"><img src="assets/img/download_app/btn_google_play.png" alt="button play store" width="150"/></a>
+                            <a href="#"><img src="assets/img/download_app/btn_app_store.png" alt="button google play" width="150"/></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <footer>
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-3 col-lg-3 col-md-3 col-md-6 col-12">
+                        <h4>For Job Seekers</h4>
+                        <ul class="list-unstyled">
+                            <li><a href="#">Are you looking for work?</a></li>
+                            <li><a href="#">70MillionJobs Support</a></li>
+                            <li><a href="#">Resources</a></li>
+                            <li><a href="#">Blog</a></li>
+                            <li><a href="#">Terms of Use</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-xl-3 col-lg-3 col-md-3 col-md-6 col-12">
+                        <h4>For Business</h4>
+                        <ul class="list-unstyled">
+                            <li><a href="#">Create an account</a></li>
+                            <li><a href="#">Business login</a></li>
+                            <li><a href="#">Staffing solutions</a></li>
+                            <li><a href="#">Business Support</a></li>
+                            <li><a href="#">Business Terms</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-xl-3 col-lg-3 col-md-3 col-md-6 col-12">
+                        <h4>70MillionJobs</h4>
+                        <ul class="list-unstyled">
+                            <li><a href="#">About us</a></li>
+                            <li><a href="#">Press</a></li>
+                            <li><a href="#">Careers</a></li>
+                            <li><a href="#">Download our app:</a></li>
+                            <li>
+                                <a href="#"><img src="assets/img/download_app/btn_google_play.png" alt="button play store" width="90"/></a>
+                                <a href="#"><img src="assets/img/download_app/btn_app_store.png" alt="button google play" width="90"/></a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-xl-3 col-lg-3 col-md-3 col-md-6 col-12">
+                        <h4>Join Us on</h4>
+                        <ul class="list-unstyled list-inline media-social-links">
+                            <li class="list-inline-item"><a href="#"><img src="assets/img/icons/social_media_icons/ic_facebook.svg" alt="social media" width="27"/></a></li>
+                            <li class="list-inline-item"><a href="#"><img src="assets/img/icons/social_media_icons/ic_twitter.svg" alt="social media" width="27"/></a></li>
+                            <li class="list-inline-item"><a href="#"><img src="assets/img/icons/social_media_icons/ic_instagram.svg" alt="social media" width="27"/></a></li>
+                            <li class="list-inline-item"><a href="#"><img src="assets/img/icons/social_media_icons/ic_likedin.svg" alt="social media" width="27"/></a></li>
+                        </ul>
+                    </div>
+                    <p class="px-3 mt-4">© 2019 70MillionJobs Inc. &nbsp;&nbsp;|&nbsp;&nbsp; <a href="#">Privacy Policy</a></p>
+                </div>
+            </div>
+        </footer>
+
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+        <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+        
+        <script type="text/javascript">
+            $(window).scroll(function(){
+                if ($(this).scrollTop() > 50) {
+                    $('#top-menus').addClass('bg-dark');
+                    $('#signup-highlighted').addClass('orange-text');
+                } else {
+                    $('#top-menus').removeClass('bg-dark');
+                    $('#signup-highlighted').removeClass('orange-text');
+                }
+            });
+            
+            $('.main-carousel').flickity({
+                freeScroll: true,
+                wrapAround: true,
+                draggable: true,
+                autoPlay: 3500
+            });
+        </script>
+        
+    </body>
+</html>
