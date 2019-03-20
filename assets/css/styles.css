@@ -182,6 +182,11 @@ ul.clients-wrapper li a:focus {
 .btn-lg {
     padding: .6rem 2rem;
 }
+
+.btn-sp-lg {
+    padding: 1.5rem 4rem;
+}
+
 .btn-primary {
     color: #fff;
     background-color: #FC6039;
@@ -346,17 +351,19 @@ strong {
 }
 .jobs-wrapper a.job-tag {
     background: rgba(255,255,255,.8);
-    padding: 35px 25px;
+    padding: 60px;
     display: block;
     position: relative;
     text-align: center;
     border-radius: 3px;
     transition: background-color 0.4s ease;
-    min-height: 225px;
-    margin: 10px 0px;
+    min-height: 200px;
+    max-width: 200px;
+    margin: auto;
+    margin-bottom: 40px;
 }
 .jobs-wrapper a.job-tag img {
-    margin-bottom: 25px;
+    /*margin-bottom: 25px;*/
 }
 .jobs-wrapper a.job-tag h4 {
     font-size: 24px;
@@ -1062,6 +1069,4 @@ a.video-button:focus {
 }
 
 /* RESPONSIVE VIEWS */
-
-
 
